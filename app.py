@@ -3,8 +3,8 @@ from flask import Flask, request
 from Crypto.Cipher import AES
 
 # ====== 企微「接收消息服务器配置」页面的两个值 ======
-TOKEN = "替换成页面上的Token"
-AES_KEY_B64 = "替换成页面上的EncodingAESKey"  # 43位
+TOKEN = "vc4WuQ9LiUQJDACsu"
+AES_KEY_B64 = "JWUWzM3rUOMRoLCV69zuNUfRUTCVDPgWKDz5daHI1h8"  # 43位
 # =================================================
 
 app = Flask(__name__)
